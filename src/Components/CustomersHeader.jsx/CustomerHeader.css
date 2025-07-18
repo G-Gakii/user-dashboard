@@ -1,0 +1,12 @@
+.customer__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1.5rem 0;
+  h1 {
+    font-weight: 400;
+  }
+}
+.search-box {
+  background-color: white;
+}

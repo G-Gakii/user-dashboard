@@ -1,0 +1,44 @@
+.personal__info {
+  color: var(--darkGray);
+}
+small {
+  color: var(--lightgray);
+}
+
+.form__input {
+  padding: 1rem;
+  width: 100%;
+  font-size: 1rem;
+  margin: 1rem 0;
+  background-color: white;
+}
+.form__input::placeholder {
+  color: var(--lightgray);
+}
+
+.form__radio {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0;
+  font-size: 1rem;
+  label {
+    text-transform: capitalize;
+  }
+}
+.form__about {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--darkGray);
+}
+button {
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--purple);
+  color: white;
+  border: none;
+  margin: 2rem 0;
+}

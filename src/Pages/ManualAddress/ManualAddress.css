@@ -1,0 +1,8 @@
+.label_one {
+  display: flex;
+  justify-content: space-between;
+}
+.address__location {
+  display: flex;
+  gap: 1rem;
+}

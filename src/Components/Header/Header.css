@@ -1,0 +1,14 @@
+h1 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--darkGray);
+  span {
+    color: var(--brigthtgreen);
+    margin-left: 1rem;
+  }
+}

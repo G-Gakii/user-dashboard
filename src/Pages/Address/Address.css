@@ -1,0 +1,29 @@
+.btn {
+  display: flex;
+  gap: 1rem;
+  button {
+    border-radius: 1rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    background-color: transparent;
+    color: var(--purple);
+    border: 1px solid var(--border-pink);
+    width: fit-content;
+  }
+  margin-bottom: 3rem;
+}
+h3 {
+  line-height: 3rem;
+  font-size: 1.3rem;
+}
+.address__about {
+  display: flex;
+  flex-direction: column;
+  li {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--darkGray);
+    font-size: 1.2rem;
+  }
+}

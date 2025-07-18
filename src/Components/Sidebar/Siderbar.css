@@ -1,0 +1,83 @@
+@import "../../Variables.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.siderbar__container {
+  color: var(--graishBlue);
+  padding: 2rem;
+  background-color: white;
+  max-width: 300px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+.sidebar__header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: black;
+  font-weight: 600;
+  font-size: 1.6rem;
+  margin-bottom: 3rem;
+
+  small {
+    color: var(--graishBlue);
+    font-size: 0.7rem;
+  }
+}
+.sidebar__header__section__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: capitalize;
+  padding: 0 1rem;
+  span {
+    font-size: 1.5rem;
+  }
+}
+.sidebar__header__section__item__v1 {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+.sidebar__header__section__item:nth-child(3) {
+  background-color: var(--purple);
+  color: white;
+  border-radius: 1rem;
+}
+.siderbar__container__promotion {
+  background-image: linear-gradient(to right, var(--pink), var(--purple));
+  color: white;
+  padding: 2rem;
+  border-radius: 3rem;
+  button {
+    margin: 1rem 0;
+    width: 100%;
+    border: none;
+    padding: 1rem;
+    border-radius: 1.5rem;
+  }
+}
+.siderbar__container__user {
+  margin: 2rem 0;
+  display: flex;
+  gap: 1rem;
+  h3 {
+    color: black;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .siderbar__container {
+    max-width: 90px;
+  }
+  .about {
+    display: none;
+  }
+  .sidebar__header__section__item {
+    span {
+      display: none;
+    }
+  }
+}

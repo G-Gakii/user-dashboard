@@ -1,0 +1,12 @@
+.search__container {
+  background-color: whitesmoke;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  input {
+    border: none;
+    background-color: transparent;
+  }
+}

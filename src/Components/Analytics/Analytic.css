@@ -1,0 +1,33 @@
+@import "../../Variables.css";
+.analytic__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: white;
+  margin: 3rem 0;
+  border-radius: 1rem;
+}
+.analytic__container_para {
+  color: var(--grey);
+}
+.analytic__container__block {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  img {
+    background-color: var(--lightgreen);
+    padding: 1rem;
+    border-radius: 50%;
+  }
+  section {
+    h2 {
+      font-size: 2rem;
+    }
+  }
+}
+.total__customers {
+  color: var(--green);
+}
+.total__members {
+  color: red;
+}

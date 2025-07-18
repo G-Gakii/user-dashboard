@@ -1,0 +1,52 @@
+@import "../../Variables.css";
+
+.container__para {
+  color: var(--lightgray);
+  padding: 1rem 0 0;
+  font-size: 0.8rem;
+}
+.form__input {
+  border: 1px solid var(--cream);
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  input {
+    border: none;
+    outline: none;
+  }
+  label {
+    margin-bottom: 0.3rem;
+    color: var(--lightgray);
+    font-weight: 400;
+    font-size: 1rem;
+  }
+}
+.form__button {
+  width: 100%;
+  background-color: var(--purple);
+  border: none;
+  padding: 1rem;
+  font-weight: 700;
+  color: white;
+  font-size: 1rem;
+  font-family: var(--font);
+  border-radius: 0.8rem;
+  margin-top: 1rem;
+}
+small {
+  color: brown;
+  margin-top: 5px;
+}
+
+.container__terms {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 0.7rem;
+  color: var(--lightgray);
+  a {
+    color: skyblue;
+    text-transform: capitalize;
+  }
+}
