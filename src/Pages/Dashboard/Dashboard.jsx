@@ -8,8 +8,11 @@ import Analytic from "../../Components/Analytics/Analytic";
 const Dashboard = () => {
   return (
     <div className="dashboard__container">
-      <Sidebar />
-      <div>
+      <div className="sidebar">
+        <Sidebar />
+      </div>
+
+      <div className="dashboard__container__content">
         <CustomersHeader />
         <Analytic />
         <Customers />

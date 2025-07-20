@@ -1,5 +1,22 @@
 .dashboard__container {
   display: flex;
-  gap: 2rem;
+
+  gap: 1rem;
+  margin: 0;
   width: 100%;
+}
+.dashboard__container__content {
+  width: 72%;
+  height: auto;
+}
+.sidebar {
+  width: 25%;
+  text-align: center;
+  height: auto;
+}
+
+@media screen and (max-width: 480px) {
+  .dashboard__container {
+    max-width: 400px !important;
+  }
 }

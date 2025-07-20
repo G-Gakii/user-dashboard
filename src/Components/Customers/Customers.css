@@ -1,19 +1,30 @@
 .customer__container {
   background-color: white;
-  height: fit-content;
+  height: auto;
   width: 100%;
+
   padding: 1rem;
-  max-width: 900px;
-  table {
+  .table__container {
     max-width: 100%;
-    tr {
-      th {
-        color: var(--grey);
-        font-weight: 400;
-        padding: 1rem 1rem 2rem 0;
-      }
-      td {
-        padding: 1rem 1rem 1rem 0;
+    overflow-x: auto;
+    table {
+      background-color: white;
+      width: 100%;
+
+      tr {
+        padding: 0.5rem 0;
+        margin: 0;
+
+        th {
+          color: var(--grey);
+          font-weight: 400;
+
+          margin: 0;
+        }
+        td {
+          padding: 0;
+          text-align: center;
+        }
       }
     }
   }
@@ -63,4 +74,21 @@ button {
   border: 1px solid var(--green);
   color: var(--textgreen);
   background-color: var(--lightgreen);
+}
+
+@media screen and (max-width: 768px) {
+  .members {
+    flex-direction: column;
+    div {
+      flex-direction: column;
+      width: 100%;
+      order: 1;
+      label {
+        width: 100%;
+      }
+    }
+    span {
+      order: 2;
+    }
+  }
 }

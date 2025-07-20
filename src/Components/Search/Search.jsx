@@ -3,7 +3,7 @@ import "./Search.css";
 
 const Search = () => {
   return (
-    <div className="search__container">
+    <div className="search__container1">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="16"

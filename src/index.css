@@ -17,6 +17,7 @@ body {
   background-color: white;
   margin: 2rem auto;
   border-radius: 1rem;
+  width: 100%;
 }
 .form__checkbox {
   display: flex;

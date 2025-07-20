@@ -3,10 +3,18 @@
   align-items: center;
   justify-content: space-between;
   margin: 1.5rem 0;
+  width: 100%;
+  padding: 2rem;
+
   h1 {
     font-weight: 400;
+    margin: 0;
+    padding: 0;
+
+    width: 48%;
   }
-}
-.search-box {
-  background-color: white;
+  .search_container {
+    max-width: 64px;
+    background-color: white;
+  }
 }

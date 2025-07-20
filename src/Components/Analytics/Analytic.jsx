@@ -8,7 +8,7 @@ const Analytic = () => {
   return (
     <div className="analytic__container">
       <div className="analytic__container__block">
-        <img src={people} alt="" />
+        <img src={people} alt="" width={64} height={64} />
         <section>
           <p className="analytic__container_para">Total customers</p>
           <h2>5423</h2>
@@ -19,7 +19,7 @@ const Analytic = () => {
       </div>
       <div className="line"></div>
       <div className="analytic__container__block">
-        <img src={profileTick} alt="" />
+        <img src={profileTick} alt="" width={64} height={64} />
         <section>
           <p className="analytic__container_para">Members</p>
           <h2>1893</h2>
@@ -30,7 +30,7 @@ const Analytic = () => {
       </div>
       <div className="line"></div>
       <div className="analytic__container__block">
-        <img src={monitor} alt="" />
+        <img src={monitor} alt="" width={64} height={64} />
         <section>
           <p className="analytic__container_para">Active now</p>
           <h2>189</h2>

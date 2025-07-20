@@ -2,22 +2,32 @@
 .analytic__container {
   display: flex;
   justify-content: space-between;
-  padding: 2rem;
+  align-items: flex-start;
+  gap: 0.4rem;
   background-color: white;
   margin: 3rem 0;
   border-radius: 1rem;
+  padding: 1rem;
 }
 .analytic__container_para {
   color: var(--grey);
+  font-size: 1rem;
 }
 .analytic__container__block {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+
+  gap: 1rem;
+  width: 30%;
+
   img {
     background-color: var(--lightgreen);
-    padding: 1rem;
+    padding: 0.8rem;
     border-radius: 50%;
+    object-fit: cover;
+    width: 100%;
+    max-width: 4rem;
+    height: auto;
   }
   section {
     h2 {
@@ -30,4 +40,28 @@
 }
 .total__members {
   color: red;
+}
+@media screen and (max-width: 768px) {
+  .analytic__container {
+    padding: 0.5rem;
+  }
+  .analytic__container_para {
+  }
+  .analytic__container__block {
+    flex-direction: column;
+    align-items: center;
+
+    section {
+      h2 {
+        font-size: 1rem;
+      }
+    }
+  }
+}
+@media screen and (max-width: 479px) {
+  .analytic__container_para,
+  .analytic__container {
+    font-size: 0.8rem;
+    text-align: center;
+  }
 }

@@ -4,9 +4,11 @@ import Search from "../Search/Search";
 
 const CustomersHeader = () => {
   return (
-    <div className="customer__header">
+    <div className="customer__header ">
       <h1>Hello Evano 👋🏼,</h1>
-      <Search style={{ backgroundColor: "ffffff" }} />
+      <div className="search_container">
+        <Search />
+      </div>
     </div>
   );
 };
