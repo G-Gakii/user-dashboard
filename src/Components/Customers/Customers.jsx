@@ -11,8 +11,11 @@ const Customers = () => {
       <h2>All Customers</h2>
       <section className="members">
         <span>Active members</span>
-        <div>
-          <Search />
+        <div className="members__filter">
+          <div className="members__filter__search">
+            <Search />
+          </div>
+
           <label>
             {" "}
             sort by:

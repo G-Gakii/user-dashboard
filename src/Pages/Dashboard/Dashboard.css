@@ -1,14 +1,26 @@
 .dashboard__container {
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+.dashboard__container__content {
+  width: 70%;
+  height: auto;
+}
+.sidebar {
+  width: 25%;
+  text-align: center;
+  height: auto;
+}
+
+/* .dashboard__container {
   display: flex;
 
   gap: 1rem;
   margin: 0;
   width: 100%;
 }
-.dashboard__container__content {
-  width: 72%;
-  height: auto;
-}
+
 .sidebar {
   width: 25%;
   text-align: center;
@@ -19,4 +31,4 @@
   .dashboard__container {
     max-width: 400px !important;
   }
-}
+} */

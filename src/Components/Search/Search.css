@@ -1,21 +1,18 @@
 .search__container1 {
-  background-color: whitesmoke;
   padding: 1rem;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   display: flex;
   align-items: center;
 
   gap: 0.5rem;
-  width: 100%;
-
-  min-width: 200px;
-  max-height: 100px;
 
   svg {
   }
   input {
     border: none;
-    width: 100%;
+
+    width: 50%;
+
     background-color: transparent;
   }
 }
